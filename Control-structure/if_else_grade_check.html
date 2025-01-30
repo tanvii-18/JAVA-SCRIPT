@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- WAP TO PRINT GRADES OF STUDENT BASED ON THEIR PERCENTAGE. -->
+
+    <script>
+
+        let Marks = prompt("Enter Your Marks :");
+        Marks = Number(Marks);
+
+        if(Marks > 90 && Marks <= 100) 
+        { 
+            console.log("Your Grade is A+. Great Job!");
+        }
+        else if(Marks > 80 && Marks <= 90)
+        {
+            console.log("Your Grade is A !");
+        }
+        else if(Marks > 70 && Marks <= 80)
+        {
+            console.log("Your Grade is B+ !");
+        }
+        else if(Marks > 60 && Marks <= 70)
+        {
+            console.log("Your Grade is B!");
+        }
+        else if(Marks>33 && Marks <= 60)
+        {
+            console.log("Passed, but you can do even better !");
+        }
+        else if(Marks<0 || Marks > 100)
+        {
+            console.log("Enter Valid Marks...")
+        }
+        else
+        {
+            console.log("You didn’t pass this time, but keep trying !");
+        }
+    </script>
+
+
+<!--  else if (Marks > 90 && Marks <= 100) {
+        console.log("Your Grade is A+. Great Job!");
+    } 
+    else if (Marks > 80 && Marks <= 90) {
+        console.log("Your Grade is A!");
+    } 
+    else if (Marks > 70 && Marks <= 80) {
+        console.log("Your Grade is B+!");
+    } 
+    else if (Marks > 60 && Marks <= 70) {
+        console.log("Your Grade is B!");
+    } 
+    else if (Marks > 33 && Marks <= 60) {
+        console.log("Passed, but you can do even better!");
+    } 
+    else {
+        console.log("You didn’t pass this time, but keep trying!");
+    } -->
+
+</body>
+</html>
