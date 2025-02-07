@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <!-- Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next? -->
+
+    <script>
+
+        let N = prompt("Enter Any Number :");
+        let start  = 22;
+
+        do
+        {
+            console.log(start);
+
+            if(N%2==0)
+        {
+            start-=1;
+        }
+        else
+        {
+            start+=2;
+        }
+            N--;
+        }while(start < N)
+
+    </script>
+
+</body>
+</html>
