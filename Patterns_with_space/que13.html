@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!-- 
+    
+    _ _ _ _ A
+    _ _ _ B A
+    _ _ C B A
+    _ D C B A
+    E D C B A
+    
+    -->
+
+
+    <script>
+
+        let x = "ABCDE"
+
+        for(let i=0; i<=4; i++)
+        {
+                for(let k=i; k<4; k++)
+                {
+                    document.write("_  ")
+                }
+                for(let j=i; j>=0; j--)
+                {
+                    document.write(x[j] + " ")
+                }
+
+                document.write("<br>")
+        }
+    </script>
+    
+</body>
+</html>

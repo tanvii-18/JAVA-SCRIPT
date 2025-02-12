@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- 
+    5 4 3 2 1
+    _ 4 3 2 1
+    _ _ 3 2 1
+    _ _ _ 2 1
+    _ _ _ _ 1
+
+    -->
+
+    <script> 
+
+        for(let i=5; i>=1; i--)
+        {
+            for(let k=i; k<5; k++)
+            {
+                document.write("_ ")
+            }
+
+            for(let j=i; j>=1; j--)
+            {
+                document.write(j +" ")
+            }
+            document.write("<br>")
+        }
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- 
+    
+    _ _ _ _ 1
+    _ _ _ 0 0
+    _ _ 1 1 1
+    _ 0 0 0 0
+    1 1 1 1 1
+        
+    -->
+
+
+    <script>
+
+        for(let i=1; i<=5; i++)
+        {
+            for(let k=i; k<5; k++)
+            {
+                document.write("_ ")
+            }
+            for(let j=1; j<=i; j++)
+            {
+                if(i%2==1)
+                {
+                    document.write("1 ")
+                }
+                else
+                {
+                    document.write("0 ")
+                }
+            }
+
+            document.write("<br>")
+        }
+
+    </script>
+    
+</body>
+</html>
