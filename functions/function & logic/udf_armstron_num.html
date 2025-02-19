@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- wap to check given number is armstrong or not. -->
+
+
+    <script>
+
+        let n = prompt("Enter a number :")
+        n = Number(n)
+
+        function armstrong(n)
+        {
+            
+            let num = n;
+            let result = 0;
+            let count = 0;
+
+
+                while(num>0)
+                {
+                    num = Math.floor(num/10);
+                    count++
+                }
+
+
+            num = n;
+
+            for(let i=1; i<=count; i++)
+            {
+                let last = num%10;
+                let multi =1 ;
+
+                for(let j=1; j<=count; j++)
+                {
+                    multi = multi * last;
+                    document.write("<br>")
+
+                    result += multi;
+                    num = Math.floor(num/10);
+
+                    document.write("<br>")
+
+
+                    if(n==result)
+                    {
+                        document.write("The number is Armstrong Number !")
+                    }
+                    else
+                    {
+                        document.write("The number is not a Armstrong Number !")
+                    }
+
+                }
+            }
+        }
+
+        armstrong(n);
+
+
+    </script>
+    
+</body>
+</html>

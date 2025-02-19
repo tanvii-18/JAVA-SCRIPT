@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--  wap to check passed number in udf prime or not. -->
+
+
+    <script>
+
+        let n = prompt("Enter Any Number :");
+        n = Number(n);
+
+        function primeNum()
+        {
+            if(n<2)
+            {
+                document.write("This is not a Prime Number !")
+            }
+
+        }
+
+            for(let i=2; i<n; i++)
+            {
+                if(n%i==0)
+                {
+                    document.write("This is not a Prime Number !")
+                }
+                else
+                {
+                    document.write("This is Prime Number !")
+                }
+            }
+
+        primeNum(n);
+
+    </script>
+    
+</body>
+</html>

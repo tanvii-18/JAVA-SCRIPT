@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- wap to create calculator using udf & switch case. -->
+
+
+    <script>
+
+        let x = prompt("Enter the value of X :")
+        let y = prompt("Enter the value of Y :")
+        x = Number(x);
+        y = Number(y);
+
+        let result;
+
+        function addition()
+        {
+           result = x + y;
+        }
+        function substraction()
+        {
+            result = x - y;
+        }
+        function multiply()
+        {
+            result = x * y;
+        }
+        function division()
+        {
+            result = x / y;
+        }
+
+
+        let choice = prompt("Enter the operation : + - * /")
+
+
+        switch(choice)
+        {
+            case "+" : 
+            addition();
+            console.log("The Addition is ", result)
+            break;
+
+            case "-" : 
+            substraction();
+            console.log("The Substraction is ", result)
+            break;
+
+            case "*" : 
+            multiply();
+            console.log("The Multiplication is ", result)
+            break;
+
+            case "/" : 
+            division();
+            console.log("The Division is ", result)
+            break;
+            
+            default : console.log("Enter valid input !")
+        }
+
+
+    </script>
+    
+</body>
+</html>

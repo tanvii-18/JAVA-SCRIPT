@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!-- wap to create a function to generate table of user given number. -->
+
+
+    <script>
+
+
+        let N = prompt("Enter the number for table..")
+        N = Number(N);
+
+        document.write("The table of", " " + N +": <br>")
+
+        function table()
+        {
+            for(let i=1; i<=10; i++)
+            {
+                document.write(N + " x " + i + " = " + N*i + "<br>")
+            }
+        }
+
+        table()
+
+    </script>
+    
+</body>
+</html>
