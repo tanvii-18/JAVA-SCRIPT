@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!-- 1 to n sum -->
+
+
+    <script>
+
+        function sum(n)
+        {
+            if(n>0)
+            {
+                return n + sum(n-1)
+            }
+            else 
+            {
+                return 0
+            }
+        }
+
+        let ans = sum(12)
+        document.write(ans)
+
+
+    </script>
+    
+</body>
+</html>
