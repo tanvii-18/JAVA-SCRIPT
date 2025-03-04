@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+
+        // WAP to print array using (.toString) method.
+        let x = [1,2,3,4,5];
+
+        x.toString();
+        {
+            document.write(".toString method : ", x)
+        }
+
+            document.write("<br>")
+
+
+        // WAP to print array using (.push) method.
+
+        x.push(80);
+        {
+                document.write(".push method : ",  x)
+        }
+
+        document.write("<br>")
+
+
+        // WAP to print array using (.join) method.
+
+        let newArr = x.join("*");
+        document.write(".join method : ",newArr)
+
+        document.write("<br>")
+
+
+        // WAP to print array using (.at) method.
+
+        let atMethod = x.at(x[2]);
+        document.write(".at method : ", atMethod);
+
+        document.write("<br>")
+
+        
+        // WAP to print array using (.pop) method.
+
+        let e = [1,4,7,9]
+        e.pop();
+        document.write(".pop method : ", e);
+
+        document.write("<br>")
+
+
+        // WAP to print array using (.shift) method.
+
+        e = [1,4,7,9]
+        e.shift()
+        document.write(".shift method : ", e);
+
+        document.write("<br>")
+
+        
+        // WAP to print array using (.unshift) method.
+
+        e = [1,4,7,9]
+        e.unshift(70)
+        document.write(".shift method : ", e);
+
+        document.write("<br>")
+
+
+        // WAP to print array using (.sort) method.
+
+        e = [1,4,7,9]
+        e.sort()
+        document.write(".sort method : ", e);
+
+        document.write("<br>")
+        
+
+    </script>
+    
+</body>
+</html>
