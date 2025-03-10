@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- wap to find max/min from array. -->
+
+    <script>
+
+
+        let y = [4,9,78,99,2,5,3];
+
+        for(let i=0; i<y.length; i++)
+        {
+            for(let j=i+1; j<y.length; j++)
+            {
+                if(y[i] > y[j])
+                {
+                    let k = y[i];
+                    y[i] = y[j];
+                    y[j] = k;
+                }
+            }
+        }
+        //  to print values in ascending order :
+        document.write("Ascending Order : ",y);
+        document.write("<br>");
+
+        let min = y[0];
+        let max = y[0];
+
+        for(let k=1; k<y.length; k++)
+        {
+            if (y[k] < min)
+             {
+            min = y[k];
+            }
+             else if (y[k] > max)
+            {
+            max = y[k];
+            }
+        }
+
+        document.write("Min Value is : ", min);
+        document.write("<br>")
+        document.write("Max Value is : ", max);
+
+    </script>
+    
+</body>
+</html>

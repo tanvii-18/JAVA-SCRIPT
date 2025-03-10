@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+
+
+    <script>
+
+        // decending order 
+
+        let x = [4,9,78,99,2,5,3]
+
+        for(let i=0; i<x.length; i++)
+        {
+            for(let j=i+1; j<x.length; j++)
+            {
+                if(x[i] < x[j])
+                {
+                    let k = x[i];
+                    x[i] = x[j];
+                    x[j] = k;
+                }
+            }
+        }
+
+        document.write("Decending Order : ",x);
+
+
+        document.write("<br>")
+
+
+        // ascending order 
+
+
+        
+        let y = [4,9,78,99,2,5,3]
+
+        for(let i=0; i<y.length; i++)
+        {
+            for(let j=i+1; j<y.length; j++)
+            {
+                if(y[i] > y[j])
+                {
+                    let k = y[i];
+                    y[i] = y[j];
+                    y[j] = k;
+                }
+            }
+        }
+
+        document.write("Ascending Order : ",y);
+
+
+    </script>
+    
+</body>
+</html>

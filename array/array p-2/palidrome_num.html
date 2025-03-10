@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- WAP to check the number is palindrome or not. -->
+
+    <script>
+
+        let number = "121";
+        let revNumber = "";
+
+        for(let i=number.length - 1; i>=0; i--)
+        {
+            revNumber += number[i];
+        }
+
+        if(number == revNumber)
+        {
+            document.write("This Number is palindrome Number !")
+        }
+        else
+        {
+            document.write("This Number is not palindrome Number !")
+        }
+
+    </script>
+    
+</body>
+</html>

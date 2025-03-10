@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- WAP to count frequency of all character/element in string array. -->
+
+    <script>
+
+        let realName = "ada";
+        let count = 0;
+
+        for(let i=0; i<realName.length; i++)
+        {
+           count= 1;
+
+           for(let j = i+1; j<realName.length; j++)
+            {
+                if(realName[i]==realName[j])
+                {
+                    count++;
+                }
+            } 
+            document.write(realName[i]+" "+ count + "<br>");
+        }
+
+
+    </script>
+    
+</body>
+</html>
