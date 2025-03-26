@@ -5,6 +5,7 @@ https://github.com/user-attachments/assets/36fb5a5a-c204-4c1e-8437-2230412c0fff
 A simple & interactive color generator that changes colors on refresh or button click. Instantly copy the color code with a single click! Perfect for designers and developers.
 
 ✨ Features:
+
 ✅ Change color on refresh 🔄
 
 ✅ Generate new colors with a button click 🎲
