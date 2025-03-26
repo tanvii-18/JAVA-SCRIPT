@@ -6,9 +6,13 @@ A simple & interactive color generator that changes colors on refresh or button 
 
 ✨ Features:
 ✅ Change color on refresh 🔄
+
 ✅ Generate new colors with a button click 🎲
+
 ✅ Display HEX & RGB codes 🎨
+
 ✅ Copy color code with a single click 📋
+
 ✅ Minimal & responsive UI 💡
 
 🚀 Live Demo | ⭐ Star this repo if you find it useful!
