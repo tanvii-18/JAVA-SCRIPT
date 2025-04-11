@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+.text-cont
+{
+    height: 100px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.text-cont .inputText
+{
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+}
+
+.text-cont #addBtn
+{
+    height: 40px;
+    width: 80px;
+    background-color: cadetblue;
+    font-size: medium;
+    color: aliceblue;
+    border: 0px;
+    border-radius: 2px;
+}
+
+.textArray{
+    width: 100%;
+    height: 30vh;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+}
+
+.textArray .list
+{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list .text
+{
+    display: flex;
+    height: 50px;
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgb(186, 184, 184);
+    border-radius: 10px;
+}
+
+.textArray .btn
+{
+    margin: 10px;
+    padding: 0px 10px;
+    height: 30px;
+    text-align: center;
+}
